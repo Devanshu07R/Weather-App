@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Finder App</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <main class="main-container">
+        <header class="input-container">
+            <input class="city-input" placeholder="Search City">
+            <button class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </header>
+
+        <section class="weather-info" style="display:none;">
+            <div class="location-date-container">
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h4 class="country-txt">Bilaspur</h4>
+                </div>
+                <h5 class="current-date-txt regular-txt">Fri, 10 Jan</h5>
+            </div>
+
+            <div class="weather-summary-container">
+                <img src="./assetsWheather/assets/weather/clouds.svg" class="weather-summary-img">
+                <div class="weather-summary-info">
+                    <h1 class="temp-txt">29 °C</h1>
+                    <h3 class="condition-txt regular-txt">Clouds</h3>
+                </div>
+            </div>
+
+            <div class="weather-condition-container">
+                <div class="condition-item">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="condition-info">
+                        <h5 class="regular-txt">Humidity</h5>
+                        <h5 class="humidity-value-txt">55%</h5>
+                    </div>
+                </div>
+
+                <div class="condition-item">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="condition-info">
+                        <h5 class="regular-txt">Wind Speed</h5>
+                        <h5 class="wind-value-txt">2 M/s</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="forecast-items-container">
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">08 Jan</h5>
+                    <img src="./assetsWheather/assets/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forcast-item-temp">29 °C</h5>
+                </div>
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">09 Jan</h5>
+                    <img src="./assetsWheather/assets/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forcast-item-temp">30 °C</h5>
+                </div>
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">10 Jan</h5>
+                    <img src="./assetsWheather/assets/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forcast-item-temp">28 °C</h5>
+                </div>
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">11 Jan</h5>
+                    <img src="./assetsWheather/assets/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forcast-item-temp">31 °C</h5>
+                </div>
+            </div>
+        </section>
+
+        <section class="search-city section-message">
+            <img src="./assetsWheather/assets/message/search-city.png" alt="">
+            <div>
+                <h1>Search City</h1>
+                <h4 class="regular-txt">
+                    Find out the weather condition of the city
+                </h4>
+            </div>
+        </section>
+
+        <section class="not-found section-message" style="display: none;">
+            <img src="./assetsWheather/assets/message/not-found.png" alt="">
+            <div>
+                <h1>City Not Found</h1>
+                <h4 class="regular-txt">
+                    Please enter a valid city name.
+                </h4>
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
