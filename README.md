@@ -13,5 +13,5 @@ A modern and responsive Weather App that provides real-time weather updates usin
 🔹 HTML | Tailwind CSS | JavaScript | Fetch API
 
 🌎 Live Demo & Contributions
-🔗 Live Demo: [Deploy Link]
+🔗 Live Demo:  https://devanshu07r.github.io/Weather-App/
 📌 Contributions are welcome! Feel free to fork, improve, and star ⭐ this project.
