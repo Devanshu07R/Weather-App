@@ -1,6 +1,6 @@
 # 🌤️Weather-App
 🌤️ Weather App
-A modern and responsive Weather App that provides real-time weather updates using the Fetch API. Built with HTML, Tailwind CSS, and JavaScript.gfffffdvbbbhvvvvggf
+A modern and responsive Weather App that provides real-time weather updates using the Fetch API. Built with HTML, Tailwind CSS, and JavaScript.ggggfddt
 
 ✨ Features
 ✅ Real-Time Weather Data – Fetch live weather details instantly.
