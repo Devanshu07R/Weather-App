@@ -5,7 +5,7 @@ A modern and responsive Weather App that provides real-time weather updates usin
 ✨ Features
 ✅ Real-Time Weather Data – Fetch live weather details instantly.
 ✅ Search by City – Get weather updates for any location worldwide.
-✅ Dynamic UI – Icons, backgrounds, and colors adjust based on weather conditions.
+✅ Dynamic UI – Icons, backgrounds, and colors adjust based on weather conditions..
 ✅ Minimal & Responsive Design – Built with Tailwind CSS for a seamless experience.
 ✅ Temperature & Conditions – Displays temperature, humidity, wind speed, and more.
 
