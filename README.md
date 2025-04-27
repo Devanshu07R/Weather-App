@@ -10,7 +10,7 @@ A modern and responsive Weather App that provides real-time weather updates usin
 ✅ Temperature & Conditions – Displays temperature, humidity, wind speed, and more.
 
 🛠️ Tech Stack
-🔹 HTML | Tailwind CSS | JavaScript | Fetch API
+🔹 HTML | Tailwind CSS | JavaScript | Fetch API.
 
 🌎 Live Demo & Contributions
 🔗 Live Demo:  https://devanshu07r.github.io/Weather-App/<br>📌 Contributions are welcome! Feel free to fork, improve, and star ⭐ this project.
