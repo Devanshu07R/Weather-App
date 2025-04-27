@@ -1,5 +1,5 @@
 # 🌤️Weather-App
-🌤️ Weather App
+🌤️ Weather App.
 A modern and responsive Weather App that provides real-time weather updates using the Fetch API. Built with HTML, Tailwind CSS, and JavaScript.
 
 ✨ Features
